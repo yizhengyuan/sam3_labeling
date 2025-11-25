@@ -6,6 +6,7 @@
 import cv2
 import json
 import sys
+import numpy as np
 
 def visualize_annotations(video_path, json_path, output_path, frame_number=30):
     """
@@ -17,19 +18,26 @@ def visualize_annotations(video_path, json_path, output_path, frame_number=30):
         output_path: 输出图片路径
         frame_number: 要可视化的帧号
     """
-    # 读取视频
-    cap = cv2.VideoCapture(video_path)
-    
-    # 跳转到指定帧
-    cap.set(cv2.CAP_PROP_POS_FRAMES, frame_number)
-    ret, frame = cap.read()
-    
-    if not ret:
-        print(f"❌ 无法读取帧 {frame_number}")
-        return
+    # 读取视频或图片
+    is_video = True
+    if video_path.lower().endswith(('.jpg', '.jpeg', '.png', '.bmp')):
+        is_video = False
+        frame = cv2.imread(video_path)
+        if frame is None:
+            print(f"❌ 无法读取图片: {video_path}")
+            return
+    else:
+        cap = cv2.VideoCapture(video_path)
+        # 跳转到指定帧
+        cap.set(cv2.CAP_PROP_POS_FRAMES, frame_number)
+        ret, frame = cap.read()
+        cap.release()
+        
+        if not ret:
+            print(f"❌ 无法读取帧 {frame_number}")
+            return
     
     height, width = frame.shape[:2]
-    cap.release()
     
     # 读取标注
     with open(json_path, 'r', encoding='utf-8') as f:
@@ -50,36 +58,71 @@ def visualize_annotations(video_path, json_path, output_path, frame_number=30):
     }
     
     # 筛选该帧的标注
-    frame_results = [r for r in results if r['value']['frame'] == frame_number]
+    if is_video:
+        frame_results = [r for r in results if r['value'].get('frame') == frame_number]
+    else:
+        # 如果是图片，直接使用所有结果
+        frame_results = results
     
     print(f"📊 帧 {frame_number} 检测到 {len(frame_results)} 个目标")
     
-    # 绘制边界框
+    # 绘制边界框和多边形
     for i, result in enumerate(frame_results, 1):
         value = result['value']
-        category = value['rectanglelabels'][0]
         
-        # 从百分比转换为像素坐标
-        x = int(value['x'] * width / 100)
-        y = int(value['y'] * height / 100)
-        w = int(value['width'] * width / 100)
-        h = int(value['height'] * height / 100)
-        
-        # 获取颜色
-        color = colors.get(category, (255, 255, 255))
-        
-        # 绘制矩形框（加粗）
-        cv2.rectangle(frame, (x, y), (x + w, y + h), color, 3)
-        
-        # 绘制标签背景
-        label = f"{category} #{i}"
-        (label_w, label_h), baseline = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, 0.7, 2)
-        cv2.rectangle(frame, (x, y - label_h - 15), (x + label_w + 10, y), color, -1)
-        
-        # 绘制文字
-        cv2.putText(frame, label, (x + 5, y - 8), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
-        
-        print(f"  {i}. {category} - 位置: ({x}, {y}), 大小: ({w}x{h})")
+        # 处理矩形框
+        if 'rectanglelabels' in value:
+            category = value['rectanglelabels'][0]
+            
+            # 从百分比转换为像素坐标
+            x = int(value['x'] * width / 100)
+            y = int(value['y'] * height / 100)
+            w = int(value['width'] * width / 100)
+            h = int(value['height'] * height / 100)
+            
+            # 获取颜色
+            color = colors.get(category, (255, 255, 255))
+            
+            # 绘制矩形框（加粗）
+            cv2.rectangle(frame, (x, y), (x + w, y + h), color, 3)
+            
+            # 绘制标签背景
+            label = f"{category} #{i}"
+            (label_w, label_h), baseline = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, 0.7, 2)
+            cv2.rectangle(frame, (x, y - label_h - 15), (x + label_w + 10, y), color, -1)
+            
+            # 绘制文字
+            cv2.putText(frame, label, (x + 5, y - 8), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
+            
+            print(f"  {i}. [Box] {category} - 位置: ({x}, {y}), 大小: ({w}x{h})")
+            
+        # 处理多边形 (SAM3)
+        elif 'polygonlabels' in value:
+            category = value['polygonlabels'][0]
+            points = value['points'] # [[x1, y1], [x2, y2], ...] (0-100)
+            
+            # 转换坐标
+            pts = []
+            for p in points:
+                px = int(p[0] * width / 100)
+                py = int(p[1] * height / 100)
+                pts.append([px, py])
+            
+            pts = np.array(pts, np.int32)
+            pts = pts.reshape((-1, 1, 2))
+            
+            # 获取颜色
+            color = colors.get(category, (255, 255, 255))
+            
+            # 绘制多边形
+            cv2.polylines(frame, [pts], True, color, 2)
+            
+            # 填充半透明遮罩
+            overlay = frame.copy()
+            cv2.fillPoly(overlay, [pts], color)
+            cv2.addWeighted(overlay, 0.3, frame, 0.7, 0, frame)
+            
+            print(f"  {i}. [Mask] {category} - {len(points)} points")
     
     # 添加标题
     title = f"Frame {frame_number} - {len(frame_results)} objects detected"
