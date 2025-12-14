@@ -19,6 +19,7 @@ def main():
     # SAM3 specific
     parser.add_argument("--sam3_checkpoint", help="Path to SAM3 checkpoint (required if provider=sam3)")
     parser.add_argument("--text_prompt", help="Text prompt for SAM3")
+    parser.add_argument("--device", default=None, choices=["cuda", "cpu", "mps"], help="Device to use (cuda, cpu, mps)")
     
     args = parser.parse_args()
     
@@ -50,9 +51,13 @@ def main():
             print("❌ Error: --sam3_checkpoint is required for SAM3 provider")
             return
             
-        cmd = f"python3 scripts/sam3_auto_labeling.py {video_path} --mode video --checkpoint {args.sam3_checkpoint} --output {json_output}"
-        if args.text_prompt:
-            cmd += f" --text_prompt '{args.text_prompt}'"
+        if not args.text_prompt:
+            print("❌ Error: --text_prompt is required for SAM3 video tracking")
+            return
+            
+        cmd = f"{sys.executable} scripts/sam3_video_tracking.py {video_path} --text '{args.text_prompt}' --checkpoint {args.sam3_checkpoint} --output {json_output} --sample-rate {args.sample_rate}"
+        if args.device:
+            cmd += f" --device {args.device}"
             
     elif args.provider == "mock":
         # Generate mock data for demonstration
@@ -102,7 +107,7 @@ def main():
 
     else:
         # Use MLLM script
-        cmd = f"python3 scripts/video_auto_labeling.py {video_path} --provider {args.provider} --sample-rate {args.sample_rate} --output {json_output}"
+        cmd = f"{sys.executable} scripts/video_auto_labeling.py {video_path} --provider {args.provider} --sample-rate {args.sample_rate} --output {json_output}"
     
     print(f"Running: {cmd}")
     ret = os.system(cmd)

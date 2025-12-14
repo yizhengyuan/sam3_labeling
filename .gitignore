@@ -63,4 +63,7 @@ labels/*
 .cache/
 *.pyc
 
+# Model checkpoints (too large for git)
+checkpoints/
+
 

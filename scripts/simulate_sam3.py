@@ -22,7 +22,7 @@ def create_mock_polygon(center, radius, num_points=8):
 
 def main():
     image_path = "data/WechatIMG6596.jpg"
-    output_json = "data/mock_sam3_results.json"
+    output_json = "SAM3_output/mock_sam3_results.json"
     
     if not os.path.exists(image_path):
         print(f"Image not found: {image_path}")
@@ -73,6 +73,9 @@ def main():
         "predictions": [{"result": results}]
     }]
     
+    # Ensure directory exists
+    os.makedirs("SAM3_output", exist_ok=True)
+    
     with open(output_json, "w") as f:
         json.dump(data, f, indent=2)
         
@@ -80,14 +83,14 @@ def main():
     
     # Run visualization
     print("Running visualization...")
-    os.system(f"python3 scripts/visualize_result.py")
+    # os.system(f"python3 scripts/visualize_result.py")
     
     # We need to manually call the function in visualize_result because main() is hardcoded
     # Let's just import it here
     sys.path.append("scripts")
     from visualize_result import visualize_annotations
     
-    output_vis = "data/mock_sam3_vis.jpg"
+    output_vis = "SAM3_output/mock_sam3_vis.jpg"
     visualize_annotations(image_path, output_json, output_vis)
     
     print(f"✓ Visualization saved: {output_vis}")
