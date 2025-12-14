@@ -1,0 +1,63 @@
+{
+  "detection_config": {
+    "threshold": 0.7,
+    "sample_rate": 5,
+    "nms_threshold": 0.4,
+    "scale_range": {
+      "min": 0.2,
+      "max": 2.0,
+      "steps": 15
+    }
+  },
+  "tracking_config": {
+    "max_age": 30,
+    "min_hits": 3,
+    "iou_threshold": 0.3,
+    "enable_tracking": true
+  },
+  "sign_categories": {
+    "warning": [
+      "Bend_to_left_ahead",
+      "Bend_to_right_ahead",
+      "Cross_roads_ahead",
+      "Children_ahead",
+      "Cattle_ahead",
+      "Cyclists_ahead",
+      "Reduce_speed_now"
+    ],
+    "regulatory": [
+      "Stop_and_give_way",
+      "No_stopping",
+      "No_stopping_at_any_time",
+      "Speed_limit_(in_km_h)",
+      "Ahead_only",
+      "Bicycle_tricycle_route._No_motor_vehicles"
+    ],
+    "information": [
+      "Census_point",
+      "Bus_lane_ahead_(Franchised_buses)",
+      "Bus_lane_for_franchised_buses_only",
+      "Segregated_pedestrian_and_bicycle_tricycle_route._No_motor_vehicles"
+    ],
+    "distance": [
+      "100m_Countdown_markers_used_to_indicate_the_distance_to_an_exit_on_the_left_side_of_a_road",
+      "200m_Countdown_markers_used_to_indicate_the_distance_to_an_exit_on_the_left_side_of_a_road",
+      "300m_Countdown_markers_used_to_indicate_the_distance_to_an_exit_on_the_left_side_of_a_road"
+    ]
+  },
+  "output_config": {
+    "coordinate_system": "relative",
+    "video_fps_assumption": 30.0,
+    "video_size_assumption": {
+      "width": 1920,
+      "height": 1080
+    },
+    "label_prefix": "traffic_sign_",
+    "generate_visualization": true
+  },
+  "sam3_integration": {
+    "enable_segmentation": true,
+    "segmentation_classes": ["regulatory", "warning"],
+    "min_confidence_for_segmentation": 0.5
+  }
+}
