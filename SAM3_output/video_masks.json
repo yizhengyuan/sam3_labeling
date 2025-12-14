@@ -1,0 +1,4960 @@
+[
+  {
+    "data": {
+      "video": "/data/local-files/?d=D1_rand11-15_clip_000.mp4"
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 50.0,
+              "y": 80.0,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 0,
+              "time": 0.0
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 50.299995000025,
+              "y": 79.99850001249995,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 1,
+              "time": 0.044444444444444446
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 50.599960000799996,
+              "y": 79.99400019999734,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 2,
+              "time": 0.08888888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 50.89986500607486,
+              "y": 79.98650101246963,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 3,
+              "time": 0.13333333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 51.19968002559902,
+              "y": 79.97600319982934,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 4,
+              "time": 0.17777777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 51.499375078120345,
+              "y": 79.962507811849,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 5,
+              "time": 0.2222222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 51.79892019438335,
+              "y": 79.94601619805613,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 6,
+              "time": 0.26666666666666666
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 52.098285420125976,
+              "y": 79.9265300075984,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 7,
+              "time": 0.3111111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 52.39744081907518,
+              "y": 79.9040511890786,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 8,
+              "time": 0.35555555555555557
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 52.696356475940334,
+              "y": 79.87858199035982,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 9,
+              "time": 0.4
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 52.995002499404855,
+              "y": 79.85012495834076,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 10,
+              "time": 0.4444444444444444
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 53.29334902511525,
+              "y": 79.81868293870092,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 11,
+              "time": 0.4888888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 53.59136621866758,
+              "y": 79.78425907561599,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 12,
+              "time": 0.5333333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 53.889024278590846,
+              "y": 79.74685681144365,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 13,
+              "time": 0.5777777777777777
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 54.186293439327095,
+              "y": 79.70647988637911,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 14,
+              "time": 0.6222222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 54.48314397420797,
+              "y": 79.66313233808127,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 15,
+              "time": 0.6666666666666666
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 54.779546198427376,
+              "y": 79.61681850126881,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 16,
+              "time": 0.7111111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 55.07547047200988,
+              "y": 79.56754300728682,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 17,
+              "time": 0.7555555555555555
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 55.370887202774725,
+              "y": 79.51531078364364,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 18,
+              "time": 0.8
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 55.66576684929502,
+              "y": 79.46012705351811,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 19,
+              "time": 0.8444444444444444
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 55.960079923851836,
+              "y": 79.40199733523725,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 20,
+              "time": 0.8888888888888888
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 56.253796995382984,
+              "y": 79.34092744172445,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 21,
+              "time": 0.9333333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 56.54688869242608,
+              "y": 79.27692347991817,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 22,
+              "time": 0.9777777777777777
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 56.839325706055654,
+              "y": 79.20999185016124,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 23,
+              "time": 1.0222222222222221
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 57.13107879281404,
+              "y": 79.14013924556089,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 24,
+              "time": 1.0666666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 57.42211877763569,
+              "y": 79.06737265131933,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 25,
+              "time": 1.1111111111111112
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 57.712416556764644,
+              "y": 78.99169934403541,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 26,
+              "time": 1.1555555555555554
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 58.00194310066493,
+              "y": 78.91312689097671,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 27,
+              "time": 1.2
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 58.2906694569234,
+              "y": 78.83166314932313,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 28,
+              "time": 1.2444444444444445
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 58.57856675314507,
+              "y": 78.74731626538092,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 29,
+              "time": 1.288888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 58.86560619984018,
+              "y": 78.66009467376817,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 30,
+              "time": 1.3333333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 59.151759093303305,
+              "y": 78.5700070965714,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 31,
+              "time": 1.3777777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 59.436996818483536,
+              "y": 78.47706254247322,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 32,
+              "time": 1.4222222222222223
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 59.72129085184606,
+              "y": 78.3812703058516,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 33,
+              "time": 1.4666666666666666
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 60.00461276422443,
+              "y": 78.2826399658504,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 34,
+              "time": 1.511111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 60.286934223663536,
+              "y": 78.18118138542135,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 35,
+              "time": 1.5555555555555556
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 60.5682269982527,
+              "y": 78.07690471033804,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 36,
+              "time": 1.6
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 60.84846295894886,
+              "y": 77.96982036818103,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 37,
+              "time": 1.6444444444444444
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 61.12761408238948,
+              "y": 77.85993906729531,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 38,
+              "time": 1.6888888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 61.40565245369485,
+              "y": 77.74727179571939,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 39,
+              "time": 1.7333333333333334
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 61.682550269259515,
+              "y": 77.63182982008657,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 40,
+              "time": 1.7777777777777777
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 61.95827983953268,
+              "y": 77.51362468449815,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 41,
+              "time": 1.8222222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 62.23281359178711,
+              "y": 77.39266820936925,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 42,
+              "time": 1.8666666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 62.506124072876325,
+              "y": 77.26897249024655,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 43,
+              "time": 1.9111111111111112
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 62.77818395197998,
+              "y": 77.1425498965989,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 44,
+              "time": 1.9555555555555555
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 63.0489660233369,
+              "y": 77.0134130705803,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 45,
+              "time": 2.0
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 63.31844320896559,
+              "y": 76.88157492576575,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 46,
+              "time": 2.0444444444444443
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 63.58658856137205,
+              "y": 76.74704864585986,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 47,
+              "time": 2.088888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 63.853375266244484,
+              "y": 76.60984768337853,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 48,
+              "time": 2.1333333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 64.11877664513474,
+              "y": 76.46998575830364,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 49,
+              "time": 2.1777777777777776
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 64.38276615812609,
+              "y": 76.32747685671117,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 50,
+              "time": 2.2222222222222223
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 64.64531740648722,
+              "y": 76.18233522937254,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 51,
+              "time": 2.2666666666666666
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 64.9064041353121,
+              "y": 76.0345753903295,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 52,
+              "time": 2.311111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 65.16600023614541,
+              "y": 75.88421211544284,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 53,
+              "time": 2.3555555555555556
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 65.42407974959339,
+              "y": 75.73126044091471,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 54,
+              "time": 2.4
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 65.68061686791977,
+              "y": 75.57573566178517,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 55,
+              "time": 2.4444444444444446
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 65.9355859376265,
+              "y": 75.41765333040249,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 56,
+              "time": 2.488888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 66.18896146201907,
+              "y": 75.25702925486806,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 57,
+              "time": 2.533333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 66.4407181037562,
+              "y": 75.0938794974556,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 58,
+              "time": 2.577777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 66.69083068738351,
+              "y": 74.9282203730049,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 59,
+              "time": 2.6222222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 66.93927420185106,
+              "y": 74.76006844729035,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 60,
+              "time": 2.6666666666666665
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 67.18602380301444,
+              "y": 74.58944053536439,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 61,
+              "time": 2.7111111111111112
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 67.43105481611916,
+              "y": 74.41635369987603,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 62,
+              "time": 2.7555555555555555
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 67.6743427382681,
+              "y": 74.24082524936455,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 63,
+              "time": 2.8
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 67.91586324087176,
+              "y": 74.06287273652879,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 64,
+              "time": 2.8444444444444446
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 68.15559217208119,
+              "y": 73.88251395647167,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 65,
+              "time": 2.888888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 68.393505559203,
+              "y": 73.69976694492095,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 66,
+              "time": 2.933333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 68.62957961109679,
+              "y": 73.51464997642547,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 67,
+              "time": 2.977777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 68.86379072055405,
+              "y": 73.32718156252784,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 68,
+              "time": 3.022222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 69.09611546665903,
+              "y": 73.13738044991321,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 69,
+              "time": 3.066666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 69.32653061713071,
+              "y": 72.94526561853465,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 70,
+              "time": 3.111111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 69.55501313064609,
+              "y": 72.75085627971525,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 71,
+              "time": 3.1555555555555554
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 69.7815401591442,
+              "y": 72.55417187422685,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 72,
+              "time": 3.2
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 70.00608905011094,
+              "y": 72.3552320703461,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 73,
+              "time": 3.2444444444444445
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 70.22863734884434,
+              "y": 72.15405676188765,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 74,
+              "time": 3.2888888888888888
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 70.44916280070001,
+              "y": 71.95066606621464,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 75,
+              "time": 3.3333333333333335
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 70.66764335331655,
+              "y": 71.74508032222715,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 76,
+              "time": 3.3777777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 70.88405715882071,
+              "y": 71.5373200883283,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 77,
+              "time": 3.422222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 71.09838257601231,
+              "y": 71.32740614036832,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 78,
+              "time": 3.466666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 71.31059817252823,
+              "y": 71.11535946956708,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 79,
+              "time": 3.511111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 71.52068272698568,
+              "y": 70.90120128041495,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 80,
+              "time": 3.5555555555555554
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 71.72861523110427,
+              "y": 70.6849529885524,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 81,
+              "time": 3.6
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 71.93437489180687,
+              "y": 70.46663621862841,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 82,
+              "time": 3.6444444444444444
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 72.13794113329888,
+              "y": 70.24627280213802,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 83,
+              "time": 3.688888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 72.33929359912578,
+              "y": 70.02388477523924,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 84,
+              "time": 3.7333333333333334
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 72.53841215420877,
+              "y": 69.79949437654946,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 85,
+              "time": 3.7777777777777777
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 72.7352768868583,
+              "y": 69.57312404492156,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 86,
+              "time": 3.8222222222222224
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 72.92986811076516,
+              "y": 69.34479641720004,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 87,
+              "time": 3.8666666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 73.12216636696908,
+              "y": 69.1145343259574,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 88,
+              "time": 3.911111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 73.31215242580471,
+              "y": 68.88236079721091,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 89,
+              "time": 3.9555555555555557
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 73.4998072888245,
+              "y": 68.64829904811994,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 90,
+              "time": 4.0
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 73.6851121906985,
+              "y": 68.41237248466435,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 91,
+              "time": 4.044444444444444
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 73.86804860109098,
+              "y": 68.17460469930387,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 92,
+              "time": 4.088888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 74.0485982265133,
+              "y": 67.93501946861895,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 93,
+              "time": 4.133333333333334
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 74.22674301215342,
+              "y": 67.69364075093294,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 94,
+              "time": 4.177777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 74.40246514368121,
+              "y": 67.45049268391651,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 95,
+              "time": 4.222222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 74.57574704902994,
+              "y": 67.20559958217369,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 96,
+              "time": 4.266666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 74.7465714001535,
+              "y": 66.95898593481063,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 97,
+              "time": 4.311111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 74.9149211147591,
+              "y": 66.71067640298651,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 98,
+              "time": 4.355555555555555
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 75.0807793580156,
+              "y": 66.46069581744763,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 99,
+              "time": 4.4
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 75.2441295442369,
+              "y": 66.20906917604418,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 100,
+              "time": 4.444444444444445
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 75.40495533854046,
+              "y": 65.95582164123066,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 101,
+              "time": 4.488888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 75.56324065848091,
+              "y": 65.70097853754947,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 102,
+              "time": 4.533333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 75.7189696756581,
+              "y": 65.44456534909867,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 103,
+              "time": 4.5777777777777775
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 75.87212681730016,
+              "y": 65.18660771698335,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 104,
+              "time": 4.622222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 76.02269676782049,
+              "y": 64.92713143675182,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 105,
+              "time": 4.666666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 76.17066447034959,
+              "y": 64.66616245581582,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 106,
+              "time": 4.711111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 76.31601512824045,
+              "y": 64.40372687085602,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 107,
+              "time": 4.7555555555555555
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 76.45873420654843,
+              "y": 64.13985092521219,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 108,
+              "time": 4.8
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 76.59880743348462,
+              "y": 63.87456100625902,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 109,
+              "time": 4.844444444444444
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 76.73622080184306,
+              "y": 63.60788364276731,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 110,
+              "time": 4.888888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 76.87096057040144,
+              "y": 63.3398455022512,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 111,
+              "time": 4.933333333333334
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.00301326529515,
+              "y": 63.070473388301366,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 112,
+              "time": 4.977777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.13236568136477,
+              "y": 62.79979423790471,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 113,
+              "time": 5.022222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.2590048834765,
+              "y": 62.52783511875075,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 114,
+              "time": 5.066666666666666
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.38291820781562,
+              "y": 62.25462322652473,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 115,
+              "time": 5.111111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.50409326315302,
+              "y": 61.98018588218819,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 116,
+              "time": 5.155555555555556
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.62251793208408,
+              "y": 61.7045505292469,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 117,
+              "time": 5.2
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.7381803722406,
+              "y": 61.42774473100645,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 118,
+              "time": 5.2444444444444445
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.851069017475,
+              "y": 61.149796167815985,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 119,
+              "time": 5.288888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.96117257901678,
+              "y": 60.870732634300204,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 120,
+              "time": 5.333333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.06848004660158,
+              "y": 60.59058203657991,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 121,
+              "time": 5.377777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.17298068957203,
+              "y": 60.30937238948142,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 122,
+              "time": 5.4222222222222225
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.27466405795091,
+              "y": 60.02713181373508,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 123,
+              "time": 5.466666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.37351998348616,
+              "y": 59.74388853316328,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 124,
+              "time": 5.511111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.46953858066759,
+              "y": 59.45967087185806,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 125,
+              "time": 5.555555555555555
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.56271024771546,
+              "y": 59.17450725134867,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 126,
+              "time": 5.6
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.65302566754077,
+              "y": 58.888426187759556,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 127,
+              "time": 5.644444444444445
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.74047580867673,
+              "y": 58.601456288958666,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 128,
+              "time": 5.688888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.82505192618218,
+              "y": 58.313626251696725,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 129,
+              "time": 5.733333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.9067455625158,
+              "y": 58.024964858737626,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 130,
+              "time": 5.777777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.98554854838203,
+              "y": 57.73550097598008,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 131,
+              "time": 5.822222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.06145300354797,
+              "y": 57.44526354957118,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 132,
+              "time": 5.866666666666666
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.13445133763133,
+              "y": 57.15428160301169,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 133,
+              "time": 5.911111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.20453625085958,
+              "y": 56.862584234253774,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 134,
+              "time": 5.955555555555556
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.27170073479977,
+              "y": 56.57020061279125,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 135,
+              "time": 6.0
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.33593807305948,
+              "y": 56.27715997674259,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 136,
+              "time": 6.044444444444444
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.39724184195842,
+              "y": 55.98349162992719,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 137,
+              "time": 6.088888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.45560591117078,
+              "y": 55.689224938935034,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 138,
+              "time": 6.133333333333334
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.51102444433829,
+              "y": 55.39438933018999,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 139,
+              "time": 6.177777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.5634918996538,
+              "y": 55.09901428700723,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 140,
+              "time": 6.222222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.61300303041551,
+              "y": 54.803129346644944,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 141,
+              "time": 6.266666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.6595528855516,
+              "y": 54.50676409735058,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 142,
+              "time": 6.311111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.70313681011534,
+              "y": 54.209948175402104,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 143,
+              "time": 6.355555555555555
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.74375044575059,
+              "y": 53.91271126214436,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 144,
+              "time": 6.4
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.78138973112765,
+              "y": 53.615083081021,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 145,
+              "time": 6.444444444444445
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.81605090234933,
+              "y": 53.31709339460209,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 146,
+              "time": 6.488888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.84773049332743,
+              "y": 53.018772001607964,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 147,
+              "time": 6.533333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.8764253361292,
+              "y": 52.72014873392929,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 148,
+              "time": 6.5777777777777775
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.90213256129431,
+              "y": 52.42125345364401,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 149,
+              "time": 6.622222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.92484959812163,
+              "y": 52.12211605003109,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 150,
+              "time": 6.666666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.94457417492644,
+              "y": 51.82276643658158,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 151,
+              "time": 6.711111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.96130431926748,
+              "y": 51.52323454800738,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 152,
+              "time": 6.7555555555555555
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.97503835814427,
+              "y": 51.22355033724772,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 153,
+              "time": 6.8
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.98577491816437,
+              "y": 50.92374377247398,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 154,
+              "time": 6.844444444444444
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.9935129256807,
+              "y": 50.623844834092765,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 155,
+              "time": 6.888888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.99825160689899,
+              "y": 50.323883511748015,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 156,
+              "time": 6.933333333333334
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.99999048795503,
+              "y": 50.023889801322,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 157,
+              "time": 6.977777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.9987293949622,
+              "y": 49.72389370193575,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 158,
+              "time": 7.022222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.99446845402873,
+              "y": 49.42392521294922,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 159,
+              "time": 7.066666666666666
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.98720809124515,
+              "y": 49.12401433096134,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 160,
+              "time": 7.111111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.97694903264173,
+              "y": 48.82419104681037,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 161,
+              "time": 7.155555555555556
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.96369230411571,
+              "y": 48.52448534257488,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 162,
+              "time": 7.2
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.94743923132897,
+              "y": 48.224927188575556,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 163,
+              "time": 7.2444444444444445
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.92819143957522,
+              "y": 47.92554654037814,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 164,
+              "time": 7.288888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.90595085361755,
+              "y": 47.626373335797986,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 165,
+              "time": 7.333333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.8807196974961,
+              "y": 47.32743749190623,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 166,
+              "time": 7.377777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.85250049430542,
+              "y": 47.02876890203816,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 167,
+              "time": 7.4222222222222225
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.82129606594228,
+              "y": 46.73039743280387,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 168,
+              "time": 7.466666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.78710953282355,
+              "y": 46.43235292110163,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 169,
+              "time": 7.511111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.74994431357405,
+              "y": 46.13466517113426,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 170,
+              "time": 7.555555555555555
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.70980412468474,
+              "y": 45.83736395142867,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 171,
+              "time": 7.6
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.66669298014104,
+              "y": 45.54047899185909,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 172,
+              "time": 7.644444444444445
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.62061519102149,
+              "y": 45.24403998067407,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 173,
+              "time": 7.688888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.57157536506661,
+              "y": 44.94807656152769,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 174,
+              "time": 7.733333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.5195784062181,
+              "y": 44.65261833051524,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 175,
+              "time": 7.777777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.46462951412856,
+              "y": 44.3576948332136,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 176,
+              "time": 7.822222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.40673418364138,
+              "y": 44.06333556172673,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 177,
+              "time": 7.866666666666666
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.34589820424134,
+              "y": 43.769569951736486,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 178,
+              "time": 7.911111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.28212765947573,
+              "y": 43.47642737955906,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 179,
+              "time": 7.955555555555556
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.21542892634585,
+              "y": 43.18393715920739,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 180,
+              "time": 8.0
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.14580867466947,
+              "y": 42.89212853945976,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 181,
+              "time": 8.044444444444444
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 79.0732738664137,
+              "y": 42.601030700934984,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 182,
+              "time": 8.088888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.99783175499893,
+              "y": 42.310672753174316,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 183,
+              "time": 8.133333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.91948988457345,
+              "y": 42.02108373173059,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 184,
+              "time": 8.177777777777777
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.83825608925899,
+              "y": 41.73229259526461,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 185,
+              "time": 8.222222222222221
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.75413849236743,
+              "y": 41.444328222649375,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 186,
+              "time": 8.266666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.66714550558831,
+              "y": 41.15721941008217,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 187,
+              "time": 8.311111111111112
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.57728582814786,
+              "y": 40.870994868205,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 188,
+              "time": 8.355555555555556
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.48456844593892,
+              "y": 40.58568321923354,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 189,
+              "time": 8.4
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.38900263062243,
+              "y": 40.30131299409489,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 190,
+              "time": 8.444444444444445
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.29059793870033,
+              "y": 40.017912629574646,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 191,
+              "time": 8.488888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.18936421055976,
+              "y": 39.735510465473055,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 192,
+              "time": 8.533333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 78.08531156948919,
+              "y": 39.454134741771206,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 193,
+              "time": 8.577777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.97845042066602,
+              "y": 39.17381359580698,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 194,
+              "time": 8.622222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.86879145011608,
+              "y": 38.894575059461395,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 195,
+              "time": 8.666666666666666
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.75634562364505,
+              "y": 38.61644705635536,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 196,
+              "time": 8.71111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.64112418574187,
+              "y": 38.339457399057444,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 197,
+              "time": 8.755555555555556
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.52313865845429,
+              "y": 38.06363378630252,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 198,
+              "time": 8.8
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.40240084023675,
+              "y": 37.78900380022204,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 199,
+              "time": 8.844444444444445
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.27892280477045,
+              "y": 37.51559490358573,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 200,
+              "time": 8.88888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.15271689975603,
+              "y": 37.243434437055434,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 201,
+              "time": 8.933333333333334
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 77.02379574567881,
+              "y": 36.97254961645099,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 202,
+              "time": 8.977777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 76.8921722345468,
+              "y": 36.70296753002874,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 203,
+              "time": 9.022222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 76.75785952860139,
+              "y": 36.43471513577264,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 204,
+              "time": 9.066666666666666
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 76.62087105900126,
+              "y": 36.16781925869862,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 205,
+              "time": 9.11111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 76.48122052447921,
+              "y": 35.90230658817193,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 206,
+              "time": 9.155555555555555
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 76.33892188997234,
+              "y": 35.63820367523841,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 207,
+              "time": 9.2
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 76.1939893852255,
+              "y": 35.37553692996922,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 208,
+              "time": 9.244444444444444
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 76.0464375033684,
+              "y": 35.11433261882003,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 209,
+              "time": 9.28888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 75.89628099946621,
+              "y": 34.85461686200427,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 210,
+              "time": 9.333333333333334
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 75.74353488904426,
+              "y": 34.59641563088122,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 211,
+              "time": 9.377777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 75.58821444658628,
+              "y": 34.339754745358775,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 212,
+              "time": 9.422222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 75.43033520400711,
+              "y": 34.08465987131166,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 213,
+              "time": 9.466666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 75.26991294909936,
+              "y": 33.83115651801465,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 214,
+              "time": 9.511111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 75.10696372395493,
+              "y": 33.57927003559187,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 215,
+              "time": 9.555555555555555
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 74.94150382336049,
+              "y": 33.329025612481615,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 216,
+              "time": 9.6
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 74.77354979316824,
+              "y": 33.08044827291769,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 217,
+              "time": 9.644444444444444
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 74.60311842864122,
+              "y": 32.83356287442689,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 218,
+              "time": 9.688888888888888
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 74.43022677277389,
+              "y": 32.58839410534334,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 219,
+              "time": 9.733333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 74.2548921145877,
+              "y": 32.34496648233963,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 220,
+              "time": 9.777777777777779
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 74.07713198740242,
+              "y": 32.103304347975204,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 221,
+              "time": 9.822222222222223
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 73.8969641670826,
+              "y": 31.86343186826211,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 222,
+              "time": 9.866666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 73.71440667026015,
+              "y": 31.625373030248443,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 223,
+              "time": 9.911111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 73.5294777525326,
+              "y": 31.389151639619605,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 224,
+              "time": 9.955555555555556
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 73.34219590663764,
+              "y": 31.154791318317827,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 225,
+              "time": 10.0
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 73.15257986060377,
+              "y": 30.92231550217993,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 226,
+              "time": 10.044444444444444
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 72.96064857587761,
+              "y": 30.691747438593787,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 227,
+              "time": 10.088888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 72.76642124542767,
+              "y": 30.46311018417363,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 228,
+              "time": 10.133333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 72.56991729182512,
+              "y": 30.23642660245437,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 229,
+              "time": 10.177777777777777
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 72.3711563653016,
+              "y": 30.011719361605277,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 230,
+              "time": 10.222222222222221
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 72.17015834178413,
+              "y": 29.789010932163173,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 231,
+              "time": 10.266666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 71.96694332090755,
+              "y": 29.56832358478543,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 232,
+              "time": 10.311111111111112
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 71.76153162400458,
+              "y": 29.34967938802285,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 233,
+              "time": 10.355555555555556
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 71.55394379207378,
+              "y": 29.13310020611294,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 234,
+              "time": 10.4
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 71.34420058372532,
+              "y": 28.91860769679338,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 235,
+              "time": 10.444444444444445
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 71.1323229731053,
+              "y": 28.706223309136387,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 236,
+              "time": 10.488888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 70.91833214779813,
+              "y": 28.495968281403712,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 237,
+              "time": 10.533333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 70.70224950670809,
+              "y": 28.287863638922943,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 238,
+              "time": 10.577777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 70.4840966579192,
+              "y": 28.08193019198488,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 239,
+              "time": 10.622222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 70.26389541653452,
+              "y": 27.87818853376264,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 240,
+              "time": 10.666666666666666
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 70.04166780249473,
+              "y": 27.676659038252225,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 241,
+              "time": 10.71111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 69.81743603837603,
+              "y": 27.477361858235273,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 242,
+              "time": 10.755555555555556
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 69.59122254716794,
+              "y": 27.280316923263687,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 243,
+              "time": 10.8
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 69.36304995003113,
+              "y": 27.085543937666777,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 244,
+              "time": 10.844444444444445
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 69.13294106403511,
+              "y": 26.89306237858078,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 245,
+              "time": 10.88888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 68.90091889987677,
+              "y": 26.702891494001207,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 246,
+              "time": 10.933333333333334
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 68.66700665957914,
+              "y": 26.51505030085804,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 247,
+              "time": 10.977777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 68.43122773417134,
+              "y": 26.329557583114067,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 248,
+              "time": 11.022222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 68.19360570134944,
+              "y": 26.14643188988647,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 249,
+              "time": 11.066666666666666
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 67.95416432311869,
+              "y": 25.96569153359199,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 250,
+              "time": 11.11111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 67.71292754341738,
+              "y": 25.787354588115623,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 251,
+              "time": 11.155555555555555
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 67.46991948572246,
+              "y": 25.611438887003303,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 252,
+              "time": 11.2
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 67.22516445063718,
+              "y": 25.437962021678555,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 253,
+              "time": 11.244444444444444
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 66.97868691346108,
+              "y": 25.266941339683335,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 254,
+              "time": 11.28888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 66.7305115217425,
+              "y": 25.098393942943336,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 255,
+              "time": 11.333333333333334
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 66.4806630928138,
+              "y": 24.93233668605777,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 256,
+              "time": 11.377777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 66.22916661130967,
+              "y": 24.768786174613957,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 257,
+              "time": 11.422222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 65.97604722666863,
+              "y": 24.607758763526732,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 258,
+              "time": 11.466666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 65.72133025061828,
+              "y": 24.449270555403036,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 259,
+              "time": 11.511111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 65.46504115464393,
+              "y": 24.29333739893158,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 260,
+              "time": 11.555555555555555
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 65.20720556744159,
+              "y": 24.139974887298095,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 261,
+              "time": 11.6
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 64.94784927235516,
+              "y": 23.98919835662593,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 262,
+              "time": 11.644444444444444
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 64.68699820479799,
+              "y": 23.841022884442506,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 263,
+              "time": 11.688888888888888
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 64.42467844965944,
+              "y": 23.695463288171556,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 264,
+              "time": 11.733333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 64.16091623869649,
+              "y": 23.552534123651427,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 265,
+              "time": 11.777777777777779
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 63.89573794791035,
+              "y": 23.41224968367944,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 266,
+              "time": 11.822222222222223
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 63.62917009490919,
+              "y": 23.274623996582708,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 267,
+              "time": 11.866666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 63.36123933625613,
+              "y": 23.13967082481524,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 268,
+              "time": 11.911111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 63.09197246480378,
+              "y": 23.007403663581762,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 269,
+              "time": 11.955555555555556
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 62.821396407014895,
+              "y": 22.877835739488166,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 270,
+              "time": 12.0
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 62.54953822026976,
+              "y": 22.750980009218896,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 271,
+              "time": 12.044444444444444
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 62.276425090160515,
+              "y": 22.62684915824126,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 272,
+              "time": 12.088888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 62.002084327772586,
+              "y": 22.505455599536923,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 273,
+              "time": 12.133333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 61.72654336695357,
+              "y": 22.38681147236058,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 274,
+              "time": 12.177777777777777
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 61.44982976156995,
+              "y": 22.270928641026096,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 275,
+              "time": 12.222222222222221
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 61.17197118275167,
+              "y": 22.157818693720024,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 276,
+              "time": 12.266666666666667
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 60.89299541612505,
+              "y": 22.047492941342835,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 277,
+              "time": 12.311111111111112
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 60.6129303590343,
+              "y": 21.93996241637784,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 278,
+              "time": 12.355555555555556
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 60.3318040177517,
+              "y": 21.835237871787918,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 279,
+              "time": 12.4
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 60.04964450467716,
+              "y": 21.73332977994026,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 280,
+              "time": 12.444444444444445
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 59.766480035526804,
+              "y": 21.634248331559125,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 281,
+              "time": 12.488888888888889
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 59.482338926511616,
+              "y": 21.53800343470679,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 282,
+              "time": 12.533333333333333
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 59.197249591505695,
+              "y": 21.444604713792728,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 283,
+              "time": 12.577777777777778
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 58.91124053920498,
+              "y": 21.35406150861121,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 284,
+              "time": 12.622222222222222
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 58.62434037027633,
+              "y": 21.26638287340729,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 285,
+              "time": 12.666666666666666
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 58.33657777449761,
+              "y": 21.18157757597143,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 286,
+              "time": 12.71111111111111
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 58.04798152788854,
+              "y": 21.099654096762706,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 287,
+              "time": 12.755555555555556
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 57.758580489833335,
+              "y": 21.02062062806076,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 288,
+              "time": 12.8
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 57.46840360019457,
+              "y": 20.944485073146605,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 289,
+              "time": 12.844444444444445
+            }
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "x": 57.17747987641947,
+              "y": 20.871255045512285,
+              "width": 10.0,
+              "height": 10.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "car"
+              ],
+              "frame": 290,
+              "time": 12.88888888888889
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

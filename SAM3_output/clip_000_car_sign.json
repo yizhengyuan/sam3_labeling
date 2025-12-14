@@ -1,0 +1,539 @@
+[
+  {
+    "data": {
+      "video": "/data/local-files/?d=D1_rand11-15_clip_000.mp4"
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "sequence": [
+                {
+                  "frame": 50,
+                  "x": 49.41673278808594,
+                  "y": 24.634376808449073,
+                  "width": 1.2700684865315754,
+                  "height": 1.4551515932436343,
+                  "rotation": 0,
+                  "time": 2.2222222222222223,
+                  "enabled": true
+                },
+                {
+                  "frame": 100,
+                  "x": 59.673728942871094,
+                  "y": 28.975454259801793,
+                  "width": 1.8947347005208333,
+                  "height": 1.449596263744213,
+                  "rotation": 0,
+                  "time": 4.444444444444445,
+                  "enabled": true
+                },
+                {
+                  "frame": 150,
+                  "x": 63.96432240804037,
+                  "y": 28.879055447048614,
+                  "width": 0.8682823181152344,
+                  "height": 1.3077545166015625,
+                  "rotation": 0,
+                  "time": 6.666666666666667,
+                  "enabled": true
+                },
+                {
+                  "frame": 200,
+                  "x": 67.7953592936198,
+                  "y": 21.67958860044126,
+                  "width": 3.4010759989420576,
+                  "height": 2.204180117006655,
+                  "rotation": 0,
+                  "time": 8.88888888888889,
+                  "enabled": true
+                },
+                {
+                  "frame": 250,
+                  "x": 53.7424914042155,
+                  "y": 24.872072007921005,
+                  "width": 8.560263315836588,
+                  "height": 14.90973013418692,
+                  "rotation": 0,
+                  "time": 11.11111111111111,
+                  "enabled": true
+                }
+              ],
+              "labels": [
+                "car"
+              ]
+            },
+            "id": "obj_0"
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "sequence": [
+                {
+                  "frame": 50,
+                  "x": 47.60032971700033,
+                  "y": 25.045341209129052,
+                  "width": 1.7620023091634116,
+                  "height": 1.5497080485026042,
+                  "rotation": 0,
+                  "time": 2.2222222222222223,
+                  "enabled": true
+                },
+                {
+                  "frame": 100,
+                  "x": 50.49737612406413,
+                  "y": 25.76622291847512,
+                  "width": 2.9331556955973306,
+                  "height": 5.155337298357928,
+                  "rotation": 0,
+                  "time": 4.444444444444445,
+                  "enabled": true
+                },
+                {
+                  "frame": 150,
+                  "x": 66.35648727416992,
+                  "y": 28.785171508789066,
+                  "width": 1.4324760437011719,
+                  "height": 0.8830063431351274,
+                  "rotation": 0,
+                  "time": 6.666666666666667,
+                  "enabled": true
+                },
+                {
+                  "frame": 200,
+                  "x": 53.06704203287761,
+                  "y": 22.975790235731335,
+                  "width": 7.013270060221354,
+                  "height": 12.46189965142144,
+                  "rotation": 0,
+                  "time": 8.88888888888889,
+                  "enabled": true
+                },
+                {
+                  "frame": 250,
+                  "x": 61.924235026041664,
+                  "y": 28.740384137188947,
+                  "width": 1.2084515889485676,
+                  "height": 1.8427502667462385,
+                  "rotation": 0,
+                  "time": 11.11111111111111,
+                  "enabled": true
+                }
+              ],
+              "labels": [
+                "car"
+              ]
+            },
+            "id": "obj_1"
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "sequence": [
+                {
+                  "frame": 50,
+                  "x": 47.05042839050293,
+                  "y": 26.263034961841726,
+                  "width": 2.696657180786133,
+                  "height": 4.721772935655382,
+                  "rotation": 0,
+                  "time": 2.2222222222222223,
+                  "enabled": true
+                },
+                {
+                  "frame": 100,
+                  "x": 59.66325124104818,
+                  "y": 28.97475631148727,
+                  "width": 1.0613377888997395,
+                  "height": 1.2443966335720487,
+                  "rotation": 0,
+                  "time": 4.444444444444445,
+                  "enabled": true
+                },
+                {
+                  "frame": 150,
+                  "x": 52.47406323750814,
+                  "y": 28.49240055790654,
+                  "width": 4.369484583536784,
+                  "height": 7.5310035988136566,
+                  "rotation": 0,
+                  "time": 6.666666666666667,
+                  "enabled": true
+                },
+                {
+                  "frame": 250,
+                  "x": 61.253299713134766,
+                  "y": 25.574939869068285,
+                  "width": 1.923071543375651,
+                  "height": 4.972811098451968,
+                  "rotation": 0,
+                  "time": 11.11111111111111,
+                  "enabled": true
+                }
+              ],
+              "labels": [
+                "car"
+              ]
+            },
+            "id": "obj_2"
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "sequence": [
+                {
+                  "frame": 50,
+                  "x": 53.84703954060872,
+                  "y": 21.884627165617765,
+                  "width": 1.0912068684895833,
+                  "height": 2.5156543872974537,
+                  "rotation": 0,
+                  "time": 2.2222222222222223,
+                  "enabled": true
+                },
+                {
+                  "frame": 100,
+                  "x": 57.493222554524735,
+                  "y": 25.30069421838831,
+                  "width": 1.3430595397949219,
+                  "height": 2.853113810221354,
+                  "rotation": 0,
+                  "time": 4.444444444444445,
+                  "enabled": true
+                },
+                {
+                  "frame": 150,
+                  "x": 49.44474538167318,
+                  "y": 29.371018586335357,
+                  "width": 1.686550776163737,
+                  "height": 2.128270467122396,
+                  "rotation": 0,
+                  "time": 6.666666666666667,
+                  "enabled": true
+                },
+                {
+                  "frame": 200,
+                  "x": 32.84268061319987,
+                  "y": 31.865940800419562,
+                  "width": 2.843319574991862,
+                  "height": 9.686533610026043,
+                  "rotation": 0,
+                  "time": 8.88888888888889,
+                  "enabled": true
+                }
+              ],
+              "labels": [
+                "traffic sign"
+              ]
+            },
+            "id": "obj_3"
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "sequence": [
+                {
+                  "frame": 50,
+                  "x": 31.73658053080241,
+                  "y": 26.32088555230035,
+                  "width": 1.1610253651936848,
+                  "height": 1.9548797607421877,
+                  "rotation": 0,
+                  "time": 2.2222222222222223,
+                  "enabled": true
+                },
+                {
+                  "frame": 100,
+                  "x": 31.36990229288737,
+                  "y": 14.491523460105613,
+                  "width": 5.135637919108073,
+                  "height": 10.471488104926216,
+                  "rotation": 0,
+                  "time": 4.444444444444445,
+                  "enabled": true
+                },
+                {
+                  "frame": 150,
+                  "x": 51.38241132100423,
+                  "y": 29.303602995695893,
+                  "width": 1.3075097401936848,
+                  "height": 1.9974065709997106,
+                  "rotation": 0,
+                  "time": 6.666666666666667,
+                  "enabled": true
+                },
+                {
+                  "frame": 200,
+                  "x": 18.22394053141276,
+                  "y": 26.285321270978006,
+                  "width": 10.484927495320639,
+                  "height": 15.324955692997685,
+                  "rotation": 0,
+                  "time": 8.88888888888889,
+                  "enabled": true
+                }
+              ],
+              "labels": [
+                "traffic sign"
+              ]
+            },
+            "id": "obj_4"
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "sequence": [
+                {
+                  "frame": 50,
+                  "x": 21.2253999710083,
+                  "y": 20.886010064019096,
+                  "width": 1.3806549708048503,
+                  "height": 2.5724170826099537,
+                  "rotation": 0,
+                  "time": 2.2222222222222223,
+                  "enabled": true
+                },
+                {
+                  "frame": 150,
+                  "x": 47.0851198832194,
+                  "y": 29.19849537037037,
+                  "width": 2.0262400309244795,
+                  "height": 2.653138902452257,
+                  "rotation": 0,
+                  "time": 6.666666666666667,
+                  "enabled": true
+                }
+              ],
+              "labels": [
+                "traffic sign"
+              ]
+            },
+            "id": "obj_5"
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "sequence": [
+                {
+                  "frame": 50,
+                  "x": 21.142781575520832,
+                  "y": 23.16757908573857,
+                  "width": 1.461793581644694,
+                  "height": 2.308314288104022,
+                  "rotation": 0,
+                  "time": 2.2222222222222223,
+                  "enabled": true
+                }
+              ],
+              "labels": [
+                "traffic sign"
+              ]
+            },
+            "id": "obj_6"
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "sequence": [
+                {
+                  "frame": 50,
+                  "x": 44.75600242614746,
+                  "y": 25.227358782732928,
+                  "width": 0.6927013397216797,
+                  "height": 1.281280517578125,
+                  "rotation": 0,
+                  "time": 2.2222222222222223,
+                  "enabled": true
+                }
+              ],
+              "labels": [
+                "traffic sign"
+              ]
+            },
+            "id": "obj_7"
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "sequence": [
+                {
+                  "frame": 50,
+                  "x": 41.26296361287435,
+                  "y": 77.13751333731193,
+                  "width": 1.6736507415771484,
+                  "height": 2.0541438349971064,
+                  "rotation": 0,
+                  "time": 2.2222222222222223,
+                  "enabled": true
+                }
+              ],
+              "labels": [
+                "traffic sign"
+              ]
+            },
+            "id": "obj_8"
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "sequence": [
+                {
+                  "frame": 50,
+                  "x": 41.79704666137695,
+                  "y": 82.60127879955151,
+                  "width": 1.447137196858724,
+                  "height": 2.0128942418981484,
+                  "rotation": 0,
+                  "time": 2.2222222222222223,
+                  "enabled": true
+                }
+              ],
+              "labels": [
+                "traffic sign"
+              ]
+            },
+            "id": "obj_9"
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "sequence": [
+                {
+                  "frame": 50,
+                  "x": 44.478464126586914,
+                  "y": 22.797215779622395,
+                  "width": 1.0532251993815105,
+                  "height": 2.4742748119212963,
+                  "rotation": 0,
+                  "time": 2.2222222222222223,
+                  "enabled": true
+                }
+              ],
+              "labels": [
+                "traffic sign"
+              ]
+            },
+            "id": "obj_10"
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "sequence": [
+                {
+                  "frame": 50,
+                  "x": 45.048933029174805,
+                  "y": 22.763791967321325,
+                  "width": 0.5797290802001953,
+                  "height": 0.8941706904658564,
+                  "rotation": 0,
+                  "time": 2.2222222222222223,
+                  "enabled": true
+                }
+              ],
+              "labels": [
+                "traffic sign"
+              ]
+            },
+            "id": "obj_11"
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "sequence": [
+                {
+                  "frame": 50,
+                  "x": 21.1230198542277,
+                  "y": 20.883013407389324,
+                  "width": 1.4797814687093098,
+                  "height": 4.594708195439091,
+                  "rotation": 0,
+                  "time": 2.2222222222222223,
+                  "enabled": true
+                }
+              ],
+              "labels": [
+                "traffic sign"
+              ]
+            },
+            "id": "obj_12"
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "sequence": [
+                {
+                  "frame": 50,
+                  "x": 41.41817728678385,
+                  "y": 85.32201131184895,
+                  "width": 1.5954208374023438,
+                  "height": 2.0635703757957176,
+                  "rotation": 0,
+                  "time": 2.2222222222222223,
+                  "enabled": true
+                }
+              ],
+              "labels": [
+                "traffic sign"
+              ]
+            },
+            "id": "obj_13"
+          },
+          {
+            "from_name": "box",
+            "to_name": "video",
+            "type": "videorectangle",
+            "value": {
+              "sequence": [
+                {
+                  "frame": 150,
+                  "x": 56.76267623901368,
+                  "y": 29.438369185836226,
+                  "width": 2.828108469645182,
+                  "height": 3.489280983253762,
+                  "rotation": 0,
+                  "time": 6.666666666666667,
+                  "enabled": true
+                }
+              ],
+              "labels": [
+                "car"
+              ]
+            },
+            "id": "obj_14"
+          }
+        ],
+        "model_version": "SAM3-frame-by-frame"
+      }
+    ]
+  }
+]

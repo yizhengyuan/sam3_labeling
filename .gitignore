@@ -54,10 +54,20 @@ data/*/
 labels/*
 !labels/README.md
 
-# Image and JSON outputs
+# SAM3 specific outputs
+SAM3_output/*.mp4
+SAM3_output/*.avi
+SAM3_output/*.mov
+!SAM3_output/*.json
+!SAM3_output/README.md
+
+# Image and JSON outputs (keep specific SAM3 files)
 *.jpg
 *.png
 *.json
+!SAM3_output/*.json
+!README_SAM3.md
+!SAM3_WORKFLOW_GUIDE.md
 
 # Cache
 .cache/
